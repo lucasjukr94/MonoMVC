@@ -8,7 +8,7 @@ using Microsoft.Xna.Framework.Input;
 
 namespace MonoMVC.Controller
 {
-    public class MenuController : Controller
+    public class MasterController : Controller
     {
         public override void Load()
         {
@@ -17,17 +17,12 @@ namespace MonoMVC.Controller
 
         public override void Update(GameTime gameTime)
         {
-            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed ||
-                Keyboard.GetState().IsKeyDown(Keys.L))
-            {
-                Scene.Scene.ChangeSceneMaster("");
-                Scene.Scene.ChangeScene("HomeController");
-            }
+            
         }
 
         public override void Render()
         {
-            Global.GraphicsDevice.Clear(Color.White);
+            Global.GraphicsDevice.Clear(Color.Green);
 
         }
     }

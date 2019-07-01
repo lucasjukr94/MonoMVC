@@ -12,6 +12,11 @@ namespace MonoMVC
     //Every global variables used between the game and controller are defined here
     public static class Global
     {
+        public static string DefaultControllerMaster
+        {
+            get { return @"MasterController"; }
+        }
+
         public static string DefaultController
         {
             get { return @"HomeController"; }
@@ -19,6 +24,7 @@ namespace MonoMVC
 
         public static ContentManager Content { get; set; }
         public static SpriteBatch SpriteBatch { get; set; }
+        public static SpriteFont SpriteFont { get; set; }
         public static GraphicsDevice GraphicsDevice { get; set; }
 
         public static List<Controller.Controller> Controllers { get; set; }
@@ -29,6 +35,7 @@ namespace MonoMVC
 
             Controllers.Add(new HomeController());
             Controllers.Add(new MenuController());
+            Controllers.Add(new MasterController());
         }
 
     }

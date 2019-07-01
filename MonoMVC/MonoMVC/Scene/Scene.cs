@@ -31,5 +31,36 @@ namespace MonoMVC.Scene
                 }
             }
         }
+
+        //Master-------------------------------------------------------------------------
+        public static bool IsLoadedMaster { get; set; }
+        public static string CurrentSceneMaster { get; set; }
+        public static Controller.Controller CurrentControllerMaster { get; set; }
+
+        public static void ChangeSceneMaster(string scene)
+        {
+            IsLoadedMaster = false;
+            CurrentSceneMaster = scene;
+
+        }
+
+        //Uses the CurrentSceneMaster to attribute a Controller to CurrentControllerMaster
+        public static void LoadSceneMaster()
+        {
+            if (string.IsNullOrEmpty(CurrentSceneMaster))
+            {
+                CurrentControllerMaster = null;
+            }
+            else
+            {
+                foreach (Controller.Controller c in Global.Controllers)
+                {
+                    if (CurrentSceneMaster == c.GetType().Name)
+                    {
+                        CurrentControllerMaster = c;
+                    }
+                }
+            }
+        }
     }
 }

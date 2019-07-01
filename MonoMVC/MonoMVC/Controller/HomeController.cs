@@ -21,6 +21,7 @@ namespace MonoMVC.Controller
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed ||
                 Keyboard.GetState().IsKeyDown(Keys.Space))
             {
+                Scene.Scene.ChangeSceneMaster("");
                 Scene.Scene.ChangeScene("MenuController");
             }
         }
