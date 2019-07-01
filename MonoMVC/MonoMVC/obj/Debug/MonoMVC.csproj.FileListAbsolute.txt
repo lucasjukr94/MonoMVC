@@ -1,0 +1,17 @@
+c:\users\ljeon\documents\visual studio 2013\Projects\MonoMVC\MonoMVC\bin\DesktopGL\AnyCPU\Debug\x86\SDL2.dll
+c:\users\ljeon\documents\visual studio 2013\Projects\MonoMVC\MonoMVC\bin\DesktopGL\AnyCPU\Debug\x64\SDL2.dll
+c:\users\ljeon\documents\visual studio 2013\Projects\MonoMVC\MonoMVC\bin\DesktopGL\AnyCPU\Debug\x86\soft_oal.dll
+c:\users\ljeon\documents\visual studio 2013\Projects\MonoMVC\MonoMVC\bin\DesktopGL\AnyCPU\Debug\x64\soft_oal.dll
+c:\users\ljeon\documents\visual studio 2013\Projects\MonoMVC\MonoMVC\bin\DesktopGL\AnyCPU\Debug\x86\libSDL2-2.0.so.0
+c:\users\ljeon\documents\visual studio 2013\Projects\MonoMVC\MonoMVC\bin\DesktopGL\AnyCPU\Debug\x64\libSDL2-2.0.so.0
+c:\users\ljeon\documents\visual studio 2013\Projects\MonoMVC\MonoMVC\bin\DesktopGL\AnyCPU\Debug\x86\libopenal.so.1
+c:\users\ljeon\documents\visual studio 2013\Projects\MonoMVC\MonoMVC\bin\DesktopGL\AnyCPU\Debug\x64\libopenal.so.1
+c:\users\ljeon\documents\visual studio 2013\Projects\MonoMVC\MonoMVC\bin\DesktopGL\AnyCPU\Debug\libSDL2-2.0.0.dylib
+c:\users\ljeon\documents\visual studio 2013\Projects\MonoMVC\MonoMVC\bin\DesktopGL\AnyCPU\Debug\libopenal.1.dylib
+c:\users\ljeon\documents\visual studio 2013\Projects\MonoMVC\MonoMVC\bin\DesktopGL\AnyCPU\Debug\MonoGame.Framework.dll.config
+c:\users\ljeon\documents\visual studio 2013\Projects\MonoMVC\MonoMVC\bin\DesktopGL\AnyCPU\Debug\MonoMVC.exe
+c:\users\ljeon\documents\visual studio 2013\Projects\MonoMVC\MonoMVC\bin\DesktopGL\AnyCPU\Debug\MonoMVC.pdb
+c:\users\ljeon\documents\visual studio 2013\Projects\MonoMVC\MonoMVC\bin\DesktopGL\AnyCPU\Debug\MonoGame.Framework.dll
+c:\users\ljeon\documents\visual studio 2013\Projects\MonoMVC\MonoMVC\obj\Debug\MonoMVC.csprojResolveAssemblyReference.cache
+c:\users\ljeon\documents\visual studio 2013\Projects\MonoMVC\MonoMVC\obj\Debug\MonoMVC.exe
+c:\users\ljeon\documents\visual studio 2013\Projects\MonoMVC\MonoMVC\obj\Debug\MonoMVC.pdb
