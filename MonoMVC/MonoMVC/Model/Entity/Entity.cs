@@ -19,5 +19,18 @@ namespace MonoMVC.Model.Entity
         {
             get { return new Vector2(Rectangle.X, Rectangle.Y); }
         }
+
+        public Texture2D RectangleTexture2D
+        {
+            get
+            {
+                Texture2D texture = new Texture2D(Global.GraphicsDevice, Rectangle.Width, Rectangle.Height);
+                Color[] color = new Color[Rectangle.Width * Rectangle.Height];
+                for (int i = 0; i < color.Length; ++i) color[i] = Color.Black;
+                texture.SetData(color);
+
+                return texture;
+            }
+        }
     }
 }

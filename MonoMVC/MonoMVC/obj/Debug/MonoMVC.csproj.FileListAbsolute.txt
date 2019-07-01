@@ -33,3 +33,4 @@ C:\Users\ljeon\Downloads\MonoMVC\MonoMVC\MonoMVC\bin\DesktopGL\AnyCPU\Debug\Mono
 C:\Users\ljeon\Downloads\MonoMVC\MonoMVC\MonoMVC\bin\DesktopGL\AnyCPU\Debug\MonoMVC.pdb
 C:\Users\ljeon\Downloads\MonoMVC\MonoMVC\MonoMVC\bin\DesktopGL\AnyCPU\Debug\MonoGame.Framework.dll
 C:\Users\ljeon\Downloads\MonoMVC\MonoMVC\MonoMVC\obj\Debug\MonoMVC.csprojResolveAssemblyReference.cache
+C:\Users\ljeon\Downloads\MonoMVC\MonoMVC\MonoMVC\bin\DesktopGL\AnyCPU\Debug\Content\Blackbar.xnb

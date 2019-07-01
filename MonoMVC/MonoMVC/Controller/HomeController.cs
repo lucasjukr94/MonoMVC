@@ -28,7 +28,7 @@ namespace MonoMVC.Controller
 
         public override void Render()
         {
-            Global.GraphicsDevice.Clear(Color.Black);
+            Global.GraphicsDevice.Clear(Color.Gray);
 
         }
     }
