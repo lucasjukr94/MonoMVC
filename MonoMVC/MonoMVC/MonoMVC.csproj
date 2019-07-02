@@ -48,6 +48,7 @@
     <Compile Include="Controller\MenuController.cs" />
     <Compile Include="Game1.cs" />
     <Compile Include="Global.cs" />
+    <Compile Include="Model\Entity\Cursor.cs" />
     <Compile Include="Model\Entity\Entity.cs" />
     <Compile Include="Model\Home\Home.cs" />
     <Compile Include="Program.cs" />
