@@ -13,11 +13,19 @@ namespace MonoMVC.Controller
     public class MasterController : Controller
     {
         private Cursor cursor;
+        private Box box;
         private string text;
+
+        private List<Entity> entities; 
 
         public override void Load()
         {
             cursor = new Cursor();
+            box = new Box();
+
+            entities = new List<Entity>();
+            entities.Add(cursor);
+            entities.Add(box);
         }
 
         public override void Update(GameTime gameTime)
@@ -28,7 +36,10 @@ namespace MonoMVC.Controller
 
         public override void Render()
         {
-            Global.SpriteBatch.Draw(cursor.Texture2D, cursor.Vector2);
+            foreach (Entity e in entities.OrderBy(x => x.RenderPriority))
+            {
+                Global.SpriteBatch.Draw(e.Texture2D, e.Vector2);
+            }
             Global.SpriteBatch.DrawString(Global.SpriteFont, text, Vector2.Zero, Color.Black);
         }
     }

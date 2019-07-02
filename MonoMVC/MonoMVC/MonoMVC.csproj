@@ -42,12 +42,14 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Collision.cs" />
     <Compile Include="Controller\Controller.cs" />
     <Compile Include="Controller\HomeController.cs" />
     <Compile Include="Controller\MasterController.cs" />
     <Compile Include="Controller\MenuController.cs" />
     <Compile Include="Game1.cs" />
     <Compile Include="Global.cs" />
+    <Compile Include="Model\Entity\Box.cs" />
     <Compile Include="Model\Entity\Cursor.cs" />
     <Compile Include="Model\Entity\Entity.cs" />
     <Compile Include="Model\Home\Home.cs" />

@@ -14,6 +14,7 @@ namespace MonoMVC.Model.Entity
         {
             Rectangle = new Rectangle(0, 0, 20, 20);
             Texture2D = RectangleTexture2D;
+            RenderPriority = 999;
         }
 
         public void Move()
