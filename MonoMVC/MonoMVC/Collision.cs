@@ -17,12 +17,10 @@ namespace MonoMVC
             {
                 foreach (Entity b in entities.Where(x => a.Rectangle.Intersects(x.Rectangle)))
                 {
-                    //a.Rectangle = new Rectangle(a.Rectangle.X + a.SpeedX * (-1), a.Rectangle.Y + a.SpeedY * (-1),
-                    //        a.Rectangle.Width, a.Rectangle.Height);
-                    //b.Rectangle = new Rectangle(b.Rectangle.X + a.SpeedX, b.Rectangle.Y + a.SpeedY,
-                    //    b.Rectangle.Width, b.Rectangle.Height);
-                    b.SpeedX = -a.SpeedX;
-                    b.SpeedY = -a.SpeedY;
+                    a.Rectangle = new Rectangle(a.Rectangle.X + a.SpeedX, a.Rectangle.Y + a.SpeedY,
+                            a.Rectangle.Width, a.Rectangle.Height);
+                    b.Rectangle = new Rectangle(b.Rectangle.X - a.SpeedX, b.Rectangle.Y - a.SpeedY,
+                        b.Rectangle.Width, b.Rectangle.Height);
                 }
             }
         }
