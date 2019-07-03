@@ -19,6 +19,8 @@ namespace MonoMVC.Model.Entity
 
         public void Move()
         {
+            SpeedX = Rectangle.X - Mouse.GetState().X;
+            SpeedY = Rectangle.Y - Mouse.GetState().Y;
             Rectangle = new Rectangle(Mouse.GetState().X, Mouse.GetState().Y, Rectangle.Width, Rectangle.Height);
         }
     }

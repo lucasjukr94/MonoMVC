@@ -31,7 +31,10 @@ namespace MonoMVC.Controller
         public override void Update(GameTime gameTime)
         {
             cursor.Move();
-            text = string.Format("X:{0}, Y:{1}", cursor.Vector2.X, cursor.Vector2.Y);
+            Collision.CheckAllCollision(entities);
+            text = string.Format("X:{0}, Y:{1}, SpeedX:{2}, SpeedY:{3}", cursor.Vector2.X, cursor.Vector2.Y,
+                cursor.SpeedX, cursor.SpeedY);
+            box.Move();
         }
 
         public override void Render()

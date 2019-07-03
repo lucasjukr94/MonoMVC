@@ -15,5 +15,10 @@ namespace MonoMVC.Model.Entity
             Texture2D = RectangleTexture2D;
             RenderPriority = 0;
         }
+
+        public void Move()
+        {
+            Rectangle = new Rectangle(Rectangle.X + SpeedX, Rectangle.Y + SpeedY, Rectangle.Width, Rectangle.Height);
+        }
     }
 }
