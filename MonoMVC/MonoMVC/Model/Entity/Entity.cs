@@ -15,6 +15,9 @@ namespace MonoMVC.Model.Entity
         public Texture2D Texture2D { get; set; }
         public Rectangle Rectangle { get; set; }
 
+        public int SpeedX { get; set; }
+        public int SpeedY { get; set; }
+
         public Vector2 Vector2
         {
             get { return new Vector2(Rectangle.X, Rectangle.Y); }
